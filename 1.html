@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>나를 소개합니다</title>
+    <meta charset="utf-8">
+
+    <style>
+        h1 {
+            text-align: center;
+            border-width 5px;
+            border-color: aqua;
+            border-style: solid;
+
+            padding:20px;
+            margin:20px;
+        }
+        a {
+            color:green;
+            text-decoration:
+            underline;
+
+        }
+        .korea {
+            color:blue;
+            text-decoration: none;
+        }
+       
+        #gri {
+            border:5px solid pink;
+        }
+        @media(max-width:700px){
+            #gri{
+                display:none;
+            }
+        }
+    </style>
+   
+</head>
+<body>
+    <h1>나를 소개합니다</h1>
+    <p>학력</p>
+    <li><a href="ㅡㅡ" >청람중학교</a> 졸업</li>
+    <li> 현재<a  href="http://cheongra.icehs.kr/main.do" >인천청라고등학교</a> 재학 중</li>
+    <li>미래에는<a href="https://www.yonsei.ac.kr/sc/" class="korea" > 연세대학교</a></li>
+    <img src="kk.png">
+    <li> 자랑스러운 청라고 수학동아리 노타</li>
+    <p></p>
+    <li>여자친구 목록</li>
+    <img src="lll.jpg" width="100">  
+     <img src="hhh.jpg" width="100">  
+     <img src="images.jpeg" width="100>">
+     <img src="dd.webp" width="100>">    <img src="iii.jpeg" width="100">    <img src="lll.jpg" width="100">   <img src="kkk.jpg" width="100">
+    <div id="gri">
+        <div>자동차</div>
+        <div>전용기</div>
+        <img src="ee.jpeg" width="100">    
+        <img src="QQQ.jpeg" width="100">    
+        <img src="OOO.jpeg width="100">   
+      <img src="yyy.jpeg" width="100">
+    <li>경호원들</li>
+    <img src="mmm.jpeg" width="100">    <img src="hhhhh.jpg" width="100">
+    </div>
+</p>
+
+<input type="button" 
+value="day" onclick="if(document.querySelector('body').dataset.mode ==='night'){
+    document.querySelector('body').style.backgroundColor ='white';
+    document.querySelector('body').style.color='black';
+    document.querySelector('body').dataset.mode ='day';
+    this.value ='day';
+}
+else{document.querySelector('body').style.backgroundColor ='black';
+    document.querySelector('body').style.color='white';
+    document.querySelector('body').dataset.mode ='night';
+    this.value ='night';
+
+}
+"
+
+</body>
+
+</html>
